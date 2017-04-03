@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 		goButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Uri uri = Uri.parse("https://www.w3schools.com/js/tryit.asp?filename=tryjs_cookie_username");
+				Uri uri = Uri.parse("https://jgonfer.com/nicequest/deep_linking.php");
 
 				// create an intent builder
 				CustomTabsIntent.Builder intentBuilder = new CustomTabsIntent.Builder();
